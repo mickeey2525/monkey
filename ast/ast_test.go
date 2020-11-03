@@ -1,7 +1,7 @@
 package ast
 
 import (
-	"monkey/token"
+	"github.com/mickeey2525/monkey/token"
 	"testing"
 )
 
