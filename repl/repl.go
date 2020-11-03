@@ -3,11 +3,11 @@ package repl
 import (
 	"bufio"
 	"fmt"
+	"github.com/mickeey2525/monkey/evaluator"
+	"github.com/mickeey2525/monkey/lexer"
+	"github.com/mickeey2525/monkey/object"
+	"github.com/mickeey2525/monkey/parser"
 	"io"
-	"monkey/evaluator"
-	"monkey/lexer"
-	"monkey/object"
-	"monkey/parser"
 )
 
 const PROMPT = ">> "
